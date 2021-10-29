@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Meme App</string>
+    <string name="share_meme">SHARE MEME</string>
+    <string name="next_meme">Next Meme</string>
+    <string name="warning">WARNING!</string>
+    <string name="warngdscrpnt">You May Interact With Some Memes That Uses Explicit Content ThankYou!!</string>
+
+</resources>

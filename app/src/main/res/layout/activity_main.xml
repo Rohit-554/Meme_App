@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/solidbackground2"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:background="@drawable/rectangle2"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="45dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Name"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:layout_gravity="top|center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textSize="35sp"
+            />
+        <EditText
+            android:background="@drawable/rectangle"
+            android:id="@+id/input_text"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textSize="20dp"
+            android:hint="eg . Mukesh Ambani"
+            android:textColor="#070601"
+            android:layout_margin="10dp"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nxtactivtybtn"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Rester"
+            android:backgroundTint="@color/teal_200"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rectangle"
+            />
+        <!--    <androidx.appcompat.widget.AppCompatButton-->
+        <!--        android:id="@+id/colourpicker"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:onClick="pickcolor"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_gravity="center"-->
+        <!--        android:text="CHOOSE YOUR FAVOURITE COLOUR"-->
+        <!--        android:layout_marginVertical="100dp"-->
+        <!--        />-->
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:background="@drawable/boygirl"
+
+        >
+
+    </LinearLayout>
+
+</LinearLayout>
